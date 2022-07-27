@@ -124,7 +124,7 @@ public class OperacionesCajero {
 			}
 			
 			System.out.println("\n******** CONFIRMACIÓN DE LA TRANSFERENCIA ********");
-			System.out.println("\n-------------------------------------------");
+			System.out.println("-------------------------------------------");
 			System.out.println("TITULAR: " + cuentaDestino.getNombreTitular());
 			System.out.println("CUENTA DESTINO: " + cuentaDestino.getNumCuenta());
 			System.out.println("-------------------------------------------");
@@ -145,8 +145,7 @@ public class OperacionesCajero {
 				System.out.println("SALDO ANTERIOR: " + (cuentaEnUso.getSaldo() + importe));
 				System.out.println("SALDO ACTUAL: " + cuentaEnUso.getSaldo());
 				System.out.println("---------------------------------------");
-			} else
-				System.out.println("\n¡TRANSFERENCIA RECHAZADA!");
+			} 
 			break;
 		case SALIR:
 			System.out.println("\n**************** GRACIAS POR ELEGIRNOS. HASTA LUEGO ****************");
